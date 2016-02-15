@@ -14,5 +14,5 @@ $work_path = ""; // set this if you want working folder separate // Example $wor
 $update_from_button = true; // set to true if you want Update button ( usefull if update is from remote server and takes too long)
 $fullReshare = true; // shows maximum reshare if more than one route for same node // set to true to see actual reshare instead of YES/NO
 $country_whois = true; // use whois for country detection
-$password = ""; //set password
+$password = getenv('PASSWORD'); //set password
 ?>

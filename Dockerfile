@@ -9,6 +9,7 @@ RUN chown -R www-data:www-data /app/
 
 EXPOSE 80
 WORKDIR /app
+ENV PASSWORD changeme
 
 CMD ["/run.sh"]
 
